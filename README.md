@@ -32,11 +32,9 @@ error.png: plot of error rate
 
 running_time.png: plot of running time
 
-
 2. Datasets:
 
 The dataset is loaded from UCI Machine Learning Repository(https://archive.ics.uci.edu/ml/datasets/Sports+articles+for+objectivity+analysis). It contains 1000 samples with 53 attributes.1000 sports articles were labeled using Amazon Mechanical Turk as objective or subjective. However, this dataset is too large to build SQL Tree. Therefore, after consulting professor, I decide to build the classification tree using a smaller subset of this dataset with 700 samples and 31 attributes.
-
 
 3. Command Line Arguments:
 
