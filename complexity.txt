@@ -1,0 +1,9 @@
+Big O notation analysis:
+
+Let n = the number of training samples
+Let k = the number of features
+Let d = depth of the classification tree
+
+The classification tree will compute a quality function based on each split of the data and perform this operation for each function in each node that is not a leaf node. This happens as long as a certain level (depth) can continue. In the best case of a balanced tree, the depth is O(logN), but the classification tree performs a local optimal split without concern for balance. This means that the worst case of depth is likely to happen in O(N) - basically, when each split simply splits the data into 1 and n-1 examples, where n is the number of instances of the current node.
+
+Therefore, the time complexity for classification trees is O(nkd), which means that it's actually somewhere in between O(nklog(n) and O((n^2)k)
