@@ -7,19 +7,29 @@ small_train.csv: small training dataset to implement unit tests
 small_test.csv: small test dataset to implement unit tests
 
 Node.py: a class to store all elements of a node
+
 Tree.py: a class to do operations about a tree, like building, pruning
+
 test_CART.py: units test to test tree model
+
 split.py: functions of splitting region
+
 credentials.py: store username and password
+
 sql.py: store dataset into database
+
 test_sql_and_data_frame.py: implement unit tests to compare the results of classifier on SQL version and the data frame version
+
 sk_learn.py: build decision tree classifier using sk-learn
 
 benchmark.txt: general summary comments
+
 complexity.txt: theoretical complexity of the main parts of my implementation
 
 error.png: plot of error rate
+
 running_time.png: plot of running time
+
 performance.png: plot of performance
 
 
