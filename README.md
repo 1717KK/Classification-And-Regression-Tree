@@ -1,6 +1,7 @@
 1. Files:
 
 sport_articles.csv: dataset to build classification tree
+
 small_train.csv: small training dataset to implement unit tests
 small_test.csv: small test dataset to implement unit tests
 
