@@ -35,12 +35,19 @@ The dataset is loaded from UCI Machine Learning Repository(https://archive.ics.u
 python test_CART.py [args....]
 
 Where above [args...] is a placeholder for five command-line arguments: <file_name><number_alpha><low_alpha><high_alpha><kFold><criterion><max_depth>. These arguments are described in detail below:
+	
 	1.<file_name>: the file name of dataset
+	
 	2.<number_alpha>: the number of alpha which will be generated. 
+	
 	3.<low_alpha>: the lowest alpha. 
+	
 	4.<high_alpha>: the highest alpha. 
+	
 	5.<kFold>: the number of fold used for cross-validation. 
+	
 	6.<criterion>: different methods to calculate impurity, where 1 is bayes error, 2 is cross-entropy, 3 is gini index
+	
 	7.<max_depth>: the maximum depth of tree
 
 An example of arguments: sports_articles.csv 3 0 1 5 3 4
